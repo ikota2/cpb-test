@@ -1,4 +1,3 @@
-// Import necessary packages
 require('dotenv').config();
 const { SHOPIFY_STORE_URL, SHOPIFY_ACCESS_TOKEN } = process.env;
 const fetch = require('node-fetch');
