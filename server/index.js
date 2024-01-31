@@ -2,7 +2,6 @@ const express = require('express');
 const { graphqlHTTP } = require('express-graphql');
 const { buildSchema } = require('graphql');
 const fetch = require('node-fetch');
-
 require('dotenv').config();
 const { SHOPIFY_STORE_URL, SHOPIFY_ACCESS_TOKEN } = process.env;
 

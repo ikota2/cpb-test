@@ -25,7 +25,7 @@ fetch(graphqlEndpoint, {
 })
     .then(response => response.json())
     .then(data => {
-        // TODO
+        // TODO cache
         console.log(JSON.stringify(data, null, 2));
     })
     .catch(error => console.error('Error fetching products:', error));
