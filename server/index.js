@@ -30,7 +30,7 @@ app.use('/graphql', graphqlHTTP({
     graphiql: true,
 }));
 
-const port = 3000;
+const port = 4000;
 app.listen(port, () => {
     console.log(`Running a GraphQL API server at http://localhost:${port}/graphql`);
 });
