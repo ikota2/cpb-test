@@ -7,7 +7,7 @@ const fetchProducts = require('./fetchProducts');
 const schema = buildSchema(`
     type Product {
         id: ID!
-        title: String
+        bodyHtml: String
     }
 
     type Query {

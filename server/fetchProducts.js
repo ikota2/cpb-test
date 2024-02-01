@@ -12,11 +12,11 @@ const fetchProducts = async () => {
     if (cachedData) return cachedData;
 
     const query = `{
-        products(first: 3) {
+        products (first: 50) {
             edges {
                 node {
                     id
-                    title
+                    bodyHtml
                 }
             }
         }

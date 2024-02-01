@@ -11,7 +11,7 @@ function App() {
             body: JSON.stringify({
                 query: `{
                       getProducts {
-                          id, title
+                          id, bodyHtml
                       }
                 }`
             })
